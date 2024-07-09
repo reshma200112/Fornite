@@ -1,7 +1,7 @@
 import styles from "./Home.module.css";
 import bannerImage from "../assets/home/banner.png";
 import Card from "./Card";
-import image1 from "../assets/home/cardImage1.png"; // Update with actual image paths
+import image1 from "../assets/home/cardImage1.png"; 
 import image2 from "../assets/home/cardImage2.png";
 import image3 from "../assets/home/cardImage3.png";
 import StatCard from "./StatCard";
