@@ -79,7 +79,7 @@ const Home = () => {
               publisher based in Cary, North Carolina.
             </h1>
             <div className={styles.bannerImageContainer}>
-              <img
+              <img loading="lazy"
                 src={bannerImage}
                 className={styles.bannerImage}
                 alt="Fortnite"

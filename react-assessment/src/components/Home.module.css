@@ -181,6 +181,9 @@
     flex-direction: column;
     align-items: center;
   }
+  .bannerDescription{
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 690px) {
   .bannerTitle,
@@ -214,5 +217,12 @@
   .contactTitle {
     font-size: 28px;
     line-height: 40px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .contactButtonWrapper {
+    flex-direction : column;
+    align-items: center;
+    gap: 20px;
   }
 }

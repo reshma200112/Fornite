@@ -4,7 +4,7 @@ import cardStyles from './Card.module.css'
 const Card = ({ imageSrc, description }) => {
   return (
     <div className={cardStyles.cardItem}>
-      <img src={imageSrc} alt="Card image" className={cardStyles.cardImage}/>
+      <img loading='lazy' src={imageSrc} alt="Fortnite" className={cardStyles.cardImage}/>
       <p  className={cardStyles.cardDes}>{description}</p>
     </div>
   );
